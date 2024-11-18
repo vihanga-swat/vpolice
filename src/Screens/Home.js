@@ -70,7 +70,6 @@ const CreateIncidentPopup = ({ isOpen, onClose }) => {
 
 const Home = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
-  const navigate = useNavigate();
 
   const userInfo = {
     nic: '123456789',
